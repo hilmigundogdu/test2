@@ -13,7 +13,7 @@ PAGE_SIZE = 20
 DOMAIN = ["http://127.0.0.1:9200"]
 es = Elasticsearch(hosts=DOMAIN)
 utils.check_and_create_index(es, INDEX)
-utils.check_and_create_index(es, INDEX)
+
 
 def set_session_state():
     # set default values
